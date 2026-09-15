@@ -1,5 +1,7 @@
 FROM chainguard/minio-client:latest-dev
 
+USER root
+
 LABEL maintainer="Peter Evans <mail@peterevans.dev>"
 LABEL repository="https://github.com/peter-evans/s3-backup"
 LABEL homepage="https://github.com/peter-evans/s3-backup"
